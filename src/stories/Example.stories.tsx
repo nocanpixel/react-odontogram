@@ -50,6 +50,7 @@ Dark.args = {
     baseBlue: "#d0d5f6",
     lightBlue: "#5361e6",
   },
+  selectedProp: []
 };
 
 // Optional: force background to dark for dark story

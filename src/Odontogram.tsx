@@ -3,6 +3,7 @@ import {
   type CSSProperties,
   type FC,
   useCallback,
+  useEffect,
   useRef,
   useState,
 } from "react";
@@ -106,6 +107,7 @@ export const Odontogram: FC<OdontogramProps> = ({
   className = "",
   theme = "light",
   colors = {},
+  selectedProp,
   notation,
   tooltip = {
     margin: 10,
@@ -130,6 +132,12 @@ export const Odontogram: FC<OdontogramProps> = ({
   const [selected, setSelected] = useState<Set<string>>(
     new Set(defaultSelected)
   );
+
+  useEffect(() => {
+    if (selectedProp) {
+      setSelected(new Set(selectedProp));
+    }
+  }, [JSON.stringify(selectedProp)]);
 
   const svgRef = useRef<SVGSVGElement>(null);
   const _tooltipRef = useRef<HTMLDivElement>(null);

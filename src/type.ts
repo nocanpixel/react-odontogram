@@ -41,6 +41,7 @@ export interface OdontogramProps {
   name?: string;
   defaultSelected?: string[];
   onChange?: (selected: ToothDetail[]) => void;
+  selectedProp?: string[];
   className?: string;
   selectedColor?: string;
   hoverColor?: string;

@@ -28,7 +28,6 @@
     "storybook:build": "storybook build",
     "release": "pnpm build && pnpm release-it",
     "link:self": "pnpm link --global",
-    "prepare": "lefthook install",
     "deploy-storybook": "gh-pages -d storybook-static",
     "test:coverage": "vitest run --coverage"
   },
