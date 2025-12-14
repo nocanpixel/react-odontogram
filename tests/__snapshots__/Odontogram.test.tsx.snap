@@ -523,10 +523,10 @@ exports[`Odontogram Component Snapshots > renders dark theme correctly 1`] = `
         </g>
       </g>
       <g
-        aria-label="Lower Right"
-        name="third"
+        aria-label="Lower Left"
+        name="fourth"
         role="group"
-        transform="scale(1, -1) translate(0, -694)"
+        transform="scale(-1, -1) translate(-409, -694)"
       >
         <g
           aria-label="Tooth teeth-31"
@@ -772,10 +772,10 @@ exports[`Odontogram Component Snapshots > renders dark theme correctly 1`] = `
         </g>
       </g>
       <g
-        aria-label="Lower Left"
-        name="fourth"
+        aria-label="Lower Right"
+        name="third"
         role="group"
-        transform="scale(-1, -1) translate(-409, -694)"
+        transform="scale(1, -1) translate(0, -694)"
       >
         <g
           aria-label="Tooth teeth-41"
@@ -1548,10 +1548,10 @@ exports[`Odontogram Component Snapshots > renders full odontogram correctly 1`] 
         </g>
       </g>
       <g
-        aria-label="Lower Right"
-        name="third"
+        aria-label="Lower Left"
+        name="fourth"
         role="group"
-        transform="scale(1, -1) translate(0, -694)"
+        transform="scale(-1, -1) translate(-409, -694)"
       >
         <g
           aria-label="Tooth teeth-31"
@@ -1797,10 +1797,10 @@ exports[`Odontogram Component Snapshots > renders full odontogram correctly 1`] 
         </g>
       </g>
       <g
-        aria-label="Lower Left"
-        name="fourth"
+        aria-label="Lower Right"
+        name="third"
         role="group"
-        transform="scale(-1, -1) translate(-409, -694)"
+        transform="scale(1, -1) translate(0, -694)"
       >
         <g
           aria-label="Tooth teeth-41"
@@ -2075,10 +2075,10 @@ exports[`Odontogram Component Snapshots > renders lower half odontogram 1`] = `
         Odontogram
       </title>
       <g
-        aria-label="Lower Right"
-        name="third"
+        aria-label="Lower Left"
+        name="fourth"
         role="group"
-        transform="scale(1, -1) translate(0, -694)"
+        transform="scale(-1, -1) translate(-409, -694)"
       >
         <g
           aria-label="Tooth teeth-11"
@@ -2324,10 +2324,10 @@ exports[`Odontogram Component Snapshots > renders lower half odontogram 1`] = `
         </g>
       </g>
       <g
-        aria-label="Lower Left"
-        name="fourth"
+        aria-label="Lower Right"
+        name="third"
         role="group"
-        transform="scale(-1, -1) translate(-409, -694)"
+        transform="scale(1, -1) translate(0, -694)"
       >
         <g
           aria-label="Tooth teeth-21"

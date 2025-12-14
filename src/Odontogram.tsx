@@ -201,16 +201,16 @@ export const Odontogram: FC<OdontogramProps> = ({
       position: { x: 309, y: 30 },
     },
     {
-      name: "third",
-      transform: "scale(1, -1) translate(0, -694)",
-      label: "Lower Right",
-      position: { x: 100, y: 664 },
-    },
-    {
       name: "fourth",
       transform: "scale(-1, -1) translate(-409, -694)",
       label: "Lower Left",
       position: { x: 309, y: 664 },
+    },
+    {
+      name: "third",
+      transform: "scale(1, -1) translate(0, -694)",
+      label: "Lower Right",
+      position: { x: 100, y: 664 },
     },
   ];
 
